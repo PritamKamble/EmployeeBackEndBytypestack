@@ -118,8 +118,8 @@ export class AuthRoutes {
                var transporter = nodemailer.createTransport({
                   service: 'gmail',
                   auth: {
-                     user: '7208436929.pk@gmail.com',
-                     pass: 'pritpk1234'
+                     user: 'Your Email Address',
+                     pass: 'Your Password here'
                   }
                });
                var mailOptions = {
